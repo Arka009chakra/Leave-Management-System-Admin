@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
+.nav-item{
+  font-family: 'Merriweather', serif;
+}
+.navbar-nav {
+    margin-left: auto;
+  }
+  .navbar{
+    background-color: white !important;
+    background: transparent !important;
+  }
+  .navbar-brand{
+    font-family: 'Protest Riot', sans-serif;
+  }
+
+  .navbar a:hover {
+    color: blueviolet !important;
+  }
+  .brand-name{
+    color: blue !important;
+    font-family: 'Protest Riot', sans-serif;
+  }
+
+  .form-label{
+    color: blue !important;
+    font-family: 'Protest Riot', sans-serif;
+  }
+.req{
+  background-color:white !important;
+  font-family: 'Protest Riot', sans-serif;
+  font-size: 20px;
+}
+@keyframes upAndDownAnimation {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px); /* Adjust the distance as needed */
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+  .animated-image {
+    animation: upAndDownAnimation 2s infinite; /* Adjust the duration as needed */
+  }
+
+.btn {
+  width:200px;
+  height:60px;
+}
+
+  
